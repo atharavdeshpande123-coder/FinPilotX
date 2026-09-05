@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Advisor — FinPilotX</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div data-nav>
+</div>
+<main class="page shell">
+<header class="page-title">
+<div>
+<span class="kicker">FinPilotX AI advisor</span>
+<h1>Let’s understand your portfolio together.</h1>
+<p class="lead">Structured insights built from the available portfolio context.</p>
+</div>
+</header>
+<section class="advisor">
+<aside class="card prompts">
+<h3>Ask FinPilotX</h3>
+<button>What is driving my portfolio today?</button>
+<button>Why am I underperforming NIFTY 50?</button>
+<button>Which holdings contribute most to my risk?</button>
+<button>Am I too concentrated?</button>
+<button>Explain my portfolio in simple terms.</button>
+</aside>
+<article class="card chat">
+<div class="message bot">
+<b>✦ FinPilotX AI Insight</b>
+<br>Your portfolio appears broadly diversified, though mid-cap exposure is a meaningful contributor to volatility.<br>
+<br>
+<b>What I found</b>
+<br>Mid-cap assets are approximately 25% of this demo portfolio.<br>
+<br>
+<b>Potential consideration</b>
+<br>Review whether this allocation fits your horizon and risk tolerance.<br>
+<br>
+<span class="tag">Analysis</span> <span class="tag">Moderate risk</span>
+</div>
+<div class="message user">What should I review before investing more?</div>
+<div class="message bot">
+<b>Here’s a useful review sequence:</b>
+<br>1. Current allocation and concentration<br>2. Emergency liquidity and time horizon<br>3. Whether additional investment improves diversification<br>
+<br>
+<button class="btn secondary" data-toast="Reasoning expanded">Why am I seeing this?</button>
+</div>
+<div class="chat-input">
+<input placeholder="Ask about your portfolio…">
+<button class="btn primary" data-toast="FinPilotX is analyzing your question…">Send</button>
+</div>
+</article>
+</section>
+<p class="notice" style="margin-bottom:70px">FinPilotX provides informational and analytical insights. AI outputs are not guaranteed and should not be treated as regulated personalized investment advice. Verify information and consult a SEBI-registered investment adviser where appropriate.</p>
+</main>
+<div data-footer>
+</div>
+<div class="toast">
+</div>
+<script src="assets/app.js">
+</script>
+<script src="assets/market-data.js">
+</script>
+<script src="assets/portfolio-engine.js">
+</script>
+</body>
+</html>

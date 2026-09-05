@@ -1,0 +1,33 @@
+<svg width="720" height="180" viewBox="0 0 720 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">FinPilotX logo</title>
+  <desc id="desc">An original gold and purple financial compass mark beside the FinPilotX wordmark.</desc>
+  <defs>
+    <linearGradient id="gold" x1="15" y1="14" x2="144" y2="157" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1B0"/>
+      <stop offset="0.29" stop-color="#EEC86A"/>
+      <stop offset="0.62" stop-color="#A66B20"/>
+      <stop offset="1" stop-color="#F7D77F"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="58" y1="52" x2="118" y2="127" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DF7AFE"/>
+      <stop offset="1" stop-color="#814AC8"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#C979F6" flood-opacity=".48"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g transform="translate(18 18)">
+    <circle cx="72" cy="72" r="68" fill="#10091A" stroke="url(#gold)" stroke-width="7"/>
+    <circle cx="72" cy="72" r="56" stroke="#FBE7A2" stroke-opacity=".35" stroke-width="1.5"/>
+    <path d="M72 23L104 72L72 121L40 72L72 23Z" fill="url(#violet)" filter="url(#glow)"/>
+    <path d="M72 23V72H104L72 23Z" fill="#FFE7A1" fill-opacity=".9"/>
+    <path d="M72 121V72H40L72 121Z" fill="#532582"/>
+    <circle cx="72" cy="72" r="9" fill="url(#gold)" stroke="#FFF2B5" stroke-width="2"/>
+    <path d="M72 5V18M72 126V139M5 72H18M126 72H139" stroke="#F3D57F" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="190" y="102" fill="#F8F5FF" font-family="Inter, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">FinPilot<tspan fill="url(#violet)">X</tspan></text>
+  <text x="194" y="132" fill="#BBAFC6" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3.2">INTELLIGENCE FOR INVESTING</text>
+</svg>

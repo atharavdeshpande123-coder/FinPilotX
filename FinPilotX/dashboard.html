@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard — FinPilotX</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div data-nav>
+</div>
+<section class="market-strip" aria-label="Indian market index ticker">
+<div class="ticker-viewport">
+<div class="ticker-track" data-market-ticker aria-live="polite">
+<span class="ticker-status"><span class="pulse"></span> Connecting to market feed…</span>
+</div>
+</div>
+</section>
+<main class="page shell">
+<header class="page-title">
+<div>
+<span class="kicker">Investor dashboard</span>
+<h1>Good morning, Investor.</h1>
+<p class="lead">Here’s what is happening across your portfolio.</p>
+<button class="btn primary" data-add-transaction style="margin-top:16px">+ Add Transaction</button>
+</div>
+<span class="demo">Demo portfolio · updated 09:30 IST</span>
+</header>
+<section class="grid stat-grid">
+<div class="card stat-card">
+<span class="sub">Total portfolio</span>
+<div class="metric">₹8,42,560</div>
+<span class="up sub">+18.42% all time</span>
+</div>
+<div class="card stat-card">
+<span class="sub">Invested</span>
+<div class="metric">₹7,11,000</div>
+<span class="sub">Across 14 assets</span>
+</div>
+<div class="card stat-card">
+<span class="sub">Total return</span>
+<div class="metric up">+₹1,31,560</div>
+<span class="sub">Since inception</span>
+</div>
+<div class="card stat-card">
+<span class="sub">Today’s change</span>
+<div class="metric up">+₹2,840</div>
+<span class="sub">+0.34% today</span>
+</div>
+</section>
+<section class="dashboard section">
+<article class="card chart-panel">
+<div class="row">
+<div>
+<h3>Performance analytics</h3>
+<span class="demo">Portfolio vs benchmark</span>
+</div>
+<div class="tabs">
+<button class="active">1Y</button>
+<button>3Y</button>
+<button>ALL</button>
+</div>
+</div>
+<div data-chart>
+</div>
+<div class="legend">
+<span>
+<i class="dot">
+</i>Portfolio</span>
+<span>
+<i class="dot gray">
+</i>NIFTY 50</span>
+</div>
+</article>
+<aside class="card">
+<div class="row">
+<h3>Portfolio Health</h3>
+<span class="health">Healthy</span>
+</div>
+<div class="score">
+</div>
+<div class="row mini">
+<span>Diversification</span>
+<span>84</span>
+</div>
+<div class="bar">
+<i style="width:84%">
+</i>
+</div>
+<div class="row mini">
+<span>Performance</span>
+<span>88</span>
+</div>
+<div class="bar">
+<i style="width:88%">
+</i>
+</div>
+</aside>
+</section>
+<section class="card" style="margin-bottom:70px">
+<div class="row">
+<div>
+<h3>Holdings snapshot</h3>
+<span class="demo">Analytical labels, not recommendations</span>
+</div>
+<a class="btn secondary" href="portfolio.html">View portfolio →</a>
+</div>
+<div class="table-wrap">
+<table class="table">
+<thead>
+<tr>
+<th>Asset</th>
+<th>Current Value</th>
+<th>P&L</th>
+<th>Return</th>
+<th>Weight</th>
+<th>AI View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<b>Reliance Industries</b>
+<br>
+<span class="demo">RELIANCE</span>
+</td>
+<td>₹1,42,870</td>
+<td class="up">+₹16,560</td>
+<td class="up">+13.1%</td>
+<td>16.9%</td>
+<td>
+<span class="tag">Monitor</span>
+</td>
+</tr>
+<tr>
+<td>
+<b>HDFC Bank</b>
+<br>
+<span class="demo">HDFCBANK</span>
+</td>
+<td>₹98,320</td>
+<td class="up">+₹8,730</td>
+<td class="up">+9.7%</td>
+<td>11.7%</td>
+<td>
+<span class="tag">Positive</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</main>
+<div data-footer>
+</div>
+<div class="toast">
+</div>
+<script src="assets/app.js">
+</script>
+<script src="assets/ticker.js">
+</script>
+<script src="assets/market-data.js">
+</script>
+<script src="assets/portfolio-engine.js">
+</script>
+</body>
+</html>
